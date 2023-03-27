@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  opacity: 1;
+}
+
+.title {
+padding : 12px;
+font-size : 25px;
+font-weight: bolder;
+font-style:normal;
+font-family :Arial, Helvetica, sans-serif;
+background-color: rgb(255, 91, 71);
+  color: white;
+}
+.nav-styles{
+  padding : 12px;
+  width : 100%;
+  background-color: rgb(255, 255, 255); 
+  display: flex;
+  justify-content: flex-start;
+  gap :0.5rem;
+}
+.nav-buttons{
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding : 12px;
+  border-radius : 5px;
+  background-color: inherit;
+}
+.nav-buttons:hover{
+  background-color:  rgb(255, 91, 71);
+  border: none;
+}
+.view-btn:hover{
+ background-color: yellowgreen;
+ color : white;
+}
+
+footer{
+
+  padding: 17px;
+  font-size: larger;
+  font-weight: bolder;
+  width : 100%;
+  background-color: rgb(255, 91, 71);
+  color: white ;
+}
+.user-content{
+margin : 18px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 1rem;
+
+}
+.user-card{
+  background-color:  rgb(255, 91, 71); 
+  border-radius : 5px;
+  width : 250px;
+  height : 250px;
+}
+.btn{
+  padding: 10px;
+  margin : 5px;
+  border : none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size : 12px;
+}
+.edit-btn:hover{
+  background-color: blueviolet;
+}
+
+.del-btn:hover{
+  background-color: crimson;
+  color : white;
+ }
+ .childred{
+  height : 90vh;
+  margin : 1vh;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ .dashboard{
+  display: flex;
+  flex-direction: coloumn;
+
+ }
+ .side-bar{
+  border: 1px solid red;
+  height:  100vh;
+  width : 15%;
+  background-color:  blue;
+ }
+
+ .main-content{
+  background-color: red;
+  height: 100vh;
+  width : 85%;
+ }
